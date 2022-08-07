@@ -4,7 +4,7 @@ This is a todo application build with svelte.
 
 **How to run the application**
 
-```npn run dev
+```npm run dev
 
 ```
 
