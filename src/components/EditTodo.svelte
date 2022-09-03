@@ -16,7 +16,7 @@
 </script>
 
 {#if visible}
-  <div class="backdrop" in:scale out:fade on:click={close} />
+  <div class="backdrop" transition:fade on:click={close} />
   <form on:submit|preventDefault={save} in:scale out:fade>
     <h4>Edit your task</h4>
     <input type="text" bind:value={todo.text} name="text-input" />
