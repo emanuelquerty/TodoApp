@@ -69,4 +69,12 @@
     background-color: rgba(0, 0, 0, 0.295);
     backdrop-filter: blur(4px);
   }
+
+  @media (max-width: 612px) {
+    form {
+      width: calc(100vw * 0.96);
+      left: calc((100vw - (100vw * 0.96)) / 2);
+      margin: 0 auto;
+    }
+  }
 </style>
